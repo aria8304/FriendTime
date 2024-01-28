@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		028D7CAF2B6597B700E8E21A /* friend_timeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028D7CAE2B6597B700E8E21A /* friend_timeApp.swift */; };
-		028D7CB12B6597B700E8E21A /* signup_page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028D7CB02B6597B700E8E21A /* signup_page.swift */; };
+		028D7CB12B6597B700E8E21A /* Intro_page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028D7CB02B6597B700E8E21A /* Intro_page.swift */; };
 		028D7CB32B6597B900E8E21A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028D7CB22B6597B900E8E21A /* Assets.xcassets */; };
 		028D7CB62B6597B900E8E21A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028D7CB52B6597B900E8E21A /* Preview Assets.xcassets */; };
 		028D7CC02B6597B900E8E21A /* friend_timeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028D7CBF2B6597B900E8E21A /* friend_timeTests.swift */; };
 		028D7CCA2B6597B900E8E21A /* friend_timeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028D7CC92B6597B900E8E21A /* friend_timeUITests.swift */; };
 		028D7CCC2B6597B900E8E21A /* friend_timeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028D7CCB2B6597B900E8E21A /* friend_timeUITestsLaunchTests.swift */; };
 		028D7CDC2B65B65800E8E21A /* main view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028D7CDB2B65B65800E8E21A /* main view.swift */; };
+		028D7CE02B65D10600E8E21A /* User_info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028D7CDF2B65D10600E8E21A /* User_info.swift */; };
+		028D7CE22B65D3E500E8E21A /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028D7CE12B65D3E500E8E21A /* Signup.swift */; };
+		028D7CE42B65F72300E8E21A /* interest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028D7CE32B65F72300E8E21A /* interest.swift */; };
+		028D7CEA2B6603E100E8E21A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 028D7CE92B6603E100E8E21A /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +41,7 @@
 /* Begin PBXFileReference section */
 		028D7CAB2B6597B700E8E21A /* friend_time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = friend_time.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		028D7CAE2B6597B700E8E21A /* friend_timeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friend_timeApp.swift; sourceTree = "<group>"; };
-		028D7CB02B6597B700E8E21A /* signup_page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signup_page.swift; sourceTree = "<group>"; };
+		028D7CB02B6597B700E8E21A /* Intro_page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro_page.swift; sourceTree = "<group>"; };
 		028D7CB22B6597B900E8E21A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		028D7CB52B6597B900E8E21A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		028D7CBB2B6597B900E8E21A /* friend_timeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = friend_timeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +50,10 @@
 		028D7CC92B6597B900E8E21A /* friend_timeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friend_timeUITests.swift; sourceTree = "<group>"; };
 		028D7CCB2B6597B900E8E21A /* friend_timeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friend_timeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		028D7CDB2B65B65800E8E21A /* main view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "main view.swift"; sourceTree = "<group>"; };
+		028D7CDF2B65D10600E8E21A /* User_info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User_info.swift; sourceTree = "<group>"; };
+		028D7CE12B65D3E500E8E21A /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		028D7CE32B65F72300E8E21A /* interest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = interest.swift; sourceTree = "<group>"; };
+		028D7CE92B6603E100E8E21A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +105,13 @@
 			isa = PBXGroup;
 			children = (
 				028D7CAE2B6597B700E8E21A /* friend_timeApp.swift */,
-				028D7CB02B6597B700E8E21A /* signup_page.swift */,
+				028D7CB02B6597B700E8E21A /* Intro_page.swift */,
 				028D7CDB2B65B65800E8E21A /* main view.swift */,
+				028D7CDF2B65D10600E8E21A /* User_info.swift */,
+				028D7CE12B65D3E500E8E21A /* Signup.swift */,
+				028D7CE32B65F72300E8E21A /* interest.swift */,
 				028D7CB22B6597B900E8E21A /* Assets.xcassets */,
+				028D7CE92B6603E100E8E21A /* GoogleService-Info.plist */,
 				028D7CB42B6597B900E8E21A /* Preview Content */,
 			);
 			path = friend_time;
@@ -218,6 +230,9 @@
 				Base,
 			);
 			mainGroup = 028D7CA22B6597B700E8E21A;
+			packageReferences = (
+				028D7CEB2B6604F900E8E21A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 028D7CAC2B6597B700E8E21A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -236,6 +251,7 @@
 			files = (
 				028D7CB62B6597B900E8E21A /* Preview Assets.xcassets in Resources */,
 				028D7CB32B6597B900E8E21A /* Assets.xcassets in Resources */,
+				028D7CEA2B6603E100E8E21A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +276,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				028D7CB12B6597B700E8E21A /* signup_page.swift in Sources */,
+				028D7CB12B6597B700E8E21A /* Intro_page.swift in Sources */,
+				028D7CE22B65D3E500E8E21A /* Signup.swift in Sources */,
+				028D7CE02B65D10600E8E21A /* User_info.swift in Sources */,
 				028D7CDC2B65B65800E8E21A /* main view.swift in Sources */,
 				028D7CAF2B6597B700E8E21A /* friend_timeApp.swift in Sources */,
+				028D7CE42B65F72300E8E21A /* interest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,6 +611,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		028D7CEB2B6604F900E8E21A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.20.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 028D7CA32B6597B700E8E21A /* Project object */;
 }

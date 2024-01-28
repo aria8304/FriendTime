@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import CoreLocation
+
 
 @main
 struct friend_timeApp: App {
@@ -13,5 +15,21 @@ struct friend_timeApp: App {
         WindowGroup {
             main_view()
         }
+    }
+}
+
+class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
+    private let locationManager = CLLocationManager()
+    @Published var location: CLLocation? = nil
+
+    override init() {
+        super.init()
+        self.locationManager.delegate = self
+        self.locationManager.requestAlwaysAuthorization()
+        self.locationManager.startUpdatingLocation()
+    }
+
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        location = locations.first
     }
 }
